@@ -37,5 +37,4 @@ class ConsumoDAO:
         finally:
             cursor.close()
             cnx.close()
-
         return result
